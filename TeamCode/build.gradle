@@ -23,17 +23,6 @@ android {
     }
 }
 
-
-repositories {
-    maven {
-        url = 'https://maven.brott.dev/'
-    }
-    maven {
-        url "https://repo.dairy.foundation/releases"
-    }
-}
-
-
 dependencies {
     implementation project(':FtcRobotController')
     implementation 'com.acmerobotics.dashboard:dashboard:0.4.16'
